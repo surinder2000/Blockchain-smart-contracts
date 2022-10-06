@@ -1,0 +1,144 @@
+{
+  "0x04e16f9b08d0bcad625b0bc22c2e4680bbc7c93427e38d9c669f89ccda2aa1ba": {
+    "name": "FunWithStorage",
+    "deployment": {
+      "_format": "hh-sol-artifact-1",
+      "contractName": "FunWithStorage",
+      "sourceName": "contracts/exampleContract/FunWithStorage.sol",
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        }
+      ],
+      "bytecode": "0x60a0604052348015600f57600080fd5b50601960008190555060018060006101000a81548160ff021916908315150217905550600260de908060018154018082558091505060019003906000526020600020016000909190919091505560016003600080815260200190815260200160002060006101000a81548160ff021916908315150217905550607b60808181525050608051603f60a660003960005050603f6000f3fe6080604052600080fdfea2646970667358221220e07d6b2522485a82731d613770134010972dbcbf7c76152e17b5b1f9ab55dceb64736f6c63430008080033",
+      "deployedBytecode": "0x6080604052600080fdfea2646970667358221220e07d6b2522485a82731d613770134010972dbcbf7c76152e17b5b1f9ab55dceb64736f6c63430008080033",
+      "linkReferences": {},
+      "deployedLinkReferences": {},
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "evm": {
+        "bytecode": {
+          "functionDebugData": {
+            "@_385": {
+              "entryPoint": null,
+              "id": 385,
+              "parameterSlots": 0,
+              "returnSlots": 0
+            }
+          },
+          "generatedSources": [],
+          "linkReferences": {},
+          "object": "60a0604052348015600f57600080fd5b50601960008190555060018060006101000a81548160ff021916908315150217905550600260de908060018154018082558091505060019003906000526020600020016000909190919091505560016003600080815260200190815260200160002060006101000a81548160ff021916908315150217905550607b60808181525050608051603f60a660003960005050603f6000f3fe6080604052600080fdfea2646970667358221220e07d6b2522485a82731d613770134010972dbcbf7c76152e17b5b1f9ab55dceb64736f6c63430008080033",
+          "opcodes": "PUSH1 0xA0 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x19 PUSH1 0x0 DUP2 SWAP1 SSTORE POP PUSH1 0x1 DUP1 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP PUSH1 0x2 PUSH1 0xDE SWAP1 DUP1 PUSH1 0x1 DUP2 SLOAD ADD DUP1 DUP3 SSTORE DUP1 SWAP2 POP POP PUSH1 0x1 SWAP1 SUB SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 ADD PUSH1 0x0 SWAP1 SWAP2 SWAP1 SWAP2 SWAP1 SWAP2 POP SSTORE PUSH1 0x1 PUSH1 0x3 PUSH1 0x0 DUP1 DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP PUSH1 0x7B PUSH1 0x80 DUP2 DUP2 MSTORE POP POP PUSH1 0x80 MLOAD PUSH1 0x3F PUSH1 0xA6 PUSH1 0x0 CODECOPY PUSH1 0x0 POP POP PUSH1 0x3F PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE0 PUSH30 0x6B2522485A82731D613770134010972DBCBF7C76152E17B5B1F9AB55DCEB PUSH5 0x736F6C6343 STOP ADDMOD ADDMOD STOP CALLER ",
+          "sourceMap": "57:1047:3:-:0;;;671:249;;;;;;;;;;712:2;695:14;:19;;;;770:4;759:8;;:15;;;;;;;;;;;;;;;;;;819:7;832:3;819:17;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;867:4;856:5;:8;862:1;856:8;;;;;;;;;;;;:15;;;;;;;;;;;;;;;;;;910:3;891:22;;;;;;57:1047;;;;;;;;;;"
+        },
+        "deployedBytecode": {
+          "functionDebugData": {},
+          "generatedSources": [],
+          "immutableReferences": {},
+          "linkReferences": {},
+          "object": "6080604052600080fdfea2646970667358221220e07d6b2522485a82731d613770134010972dbcbf7c76152e17b5b1f9ab55dceb64736f6c63430008080033",
+          "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE0 PUSH30 0x6B2522485A82731D613770134010972DBCBF7C76152E17B5B1F9AB55DCEB PUSH5 0x736F6C6343 STOP ADDMOD ADDMOD STOP CALLER ",
+          "sourceMap": "57:1047:3:-:0;;;;;"
+        },
+        "gasEstimates": {
+          "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+          }
+        },
+        "methodIdentifiers": {}
+      },
+      "metadata": "{\"compiler\":{\"version\":\"0.8.8+commit.dddeac2f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/exampleContract/FunWithStorage.sol\":\"FunWithStorage\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/exampleContract/FunWithStorage.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.7;\\n\\ncontract FunWithStorage {\\n    uint256 favoriteNumber; // Stored at slot 0\\n    bool someBool; // Stored at slot 1\\n    uint256[] myArray; /* Array Length Stored at slot 2,\\n    but the objects will be the keccak256(2), since 2 is the storage slot of the array */\\n    mapping(uint256 => bool) myMap; /* An empty slot is held at slot 3\\n    and the elements will be stored at keccak256(h(k) . p)\\n    p: The storage slot (aka, 3)\\n    k: The key in hex\\n    h: Some function based on the type. For uint256, it just pads the hex\\n    */\\n    uint256 constant NOT_IN_STORAGE = 123;\\n    uint256 immutable i_not_in_storage;\\n\\n    constructor() {\\n        favoriteNumber = 25; // See stored spot above // SSTORE\\n        someBool = true; // See stored spot above // SSTORE\\n        myArray.push(222); // SSTORE\\n        myMap[0] = true; // SSTORE\\n        i_not_in_storage = 123;\\n    }\\n\\n    // function doStuff() public {\\n    //     uint256 newVar = favoriteNumber + 1; // SLOAD\\n    //     bool otherVar = someBool; // SLOAD\\n    //     // ^^ memory variables\\n    // }\\n}\\n\",\"keccak256\":\"0x55aa87d761543645255f76d8cba488c0a5a6ac3536adcdf5f0da6ae25208e41d\",\"license\":\"MIT\"}},\"version\":1}",
+      "storageLayout": {
+        "storage": [
+          {
+            "astId": 343,
+            "contract": "contracts/exampleContract/FunWithStorage.sol:FunWithStorage",
+            "label": "favoriteNumber",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 345,
+            "contract": "contracts/exampleContract/FunWithStorage.sol:FunWithStorage",
+            "label": "someBool",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_bool"
+          },
+          {
+            "astId": 348,
+            "contract": "contracts/exampleContract/FunWithStorage.sol:FunWithStorage",
+            "label": "myArray",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_array(t_uint256)dyn_storage"
+          },
+          {
+            "astId": 352,
+            "contract": "contracts/exampleContract/FunWithStorage.sol:FunWithStorage",
+            "label": "myMap",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_uint256,t_bool)"
+          }
+        ],
+        "types": {
+          "t_array(t_uint256)dyn_storage": {
+            "base": "t_uint256",
+            "encoding": "dynamic_array",
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "encoding": "mapping",
+            "key": "t_uint256",
+            "label": "mapping(uint256 => bool)",
+            "numberOfBytes": "32",
+            "value": "t_bool"
+          },
+          "t_uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      },
+      "solcInput": "{\n  \"language\": \"Solidity\",\n  \"sources\": {\n    \"contracts/FundMe.sol\": {\n      \"content\": \"// SPDX-License-Identifier: MIT\\n//pragma\\npragma solidity ^0.8.7;\\n\\n//imports\\nimport \\\"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\\\";\\nimport \\\"./PriceConverter.sol\\\";\\n\\n//Error codes\\nerror FundMe__NotOwner();\\n\\n//Interfaces, Libraries, Contracts\\n\\n/// or\\n/** @title A contract for crowd funding\\n * @author Surinder Kumar\\n * @notice  This contract is to demo a simple funding contract\\n * @dev This implements price feeds as our library\\n */\\ncontract FundMe {\\n    //Type Declarations\\n    using PriceConverter for uint256;\\n\\n    //State variables\\n    address[] public s_funders;\\n    mapping(address => uint256) public s_addressToAmountFunded;\\n\\n    //constants\\n    address public immutable i_owner;\\n    uint256 public constant MINIMUM_USD = 5 * 1e18;\\n\\n    AggregatorV3Interface public s_priceFeed;\\n\\n    //Modifier\\n    modifier onlyOwner() {\\n        //require(msg.sender == i_owner, \\\"Sender is not owner\\\");\\n        //require(msg.sender == i_owner, NotOwner());\\n        if (msg.sender != i_owner) revert FundMe__NotOwner();\\n        _;\\n    }\\n\\n    //Functions\\n    constructor(address priceFeedAddress) {\\n        i_owner = msg.sender;\\n        s_priceFeed = AggregatorV3Interface(priceFeedAddress);\\n    }\\n\\n    receive() external payable {\\n        fund();\\n    }\\n\\n    fallback() external payable {\\n        fund();\\n    }\\n\\n    /**\\n     * @notice  This function funds this contract\\n     * @dev This implements price feeds as our library\\n     */\\n    function fund() public payable {\\n        require(\\n            msg.value.getConversionRate(s_priceFeed) >= MINIMUM_USD,\\n            \\\"You need to spend more ETH!\\\"\\n        ); // 1e18 == 1*10**18 == 1(18 times 0)\\n        s_funders.push(msg.sender);\\n        s_addressToAmountFunded[msg.sender] += msg.value;\\n    }\\n\\n    function withdraw() public onlyOwner {\\n        for (\\n            uint256 funderIndex = 0;\\n            funderIndex < s_funders.length;\\n            funderIndex++\\n        ) {\\n            address funder = s_funders[funderIndex];\\n            s_addressToAmountFunded[funder] = 0;\\n        }\\n        s_funders = new address[](0);\\n\\n        // // transfer\\n        // payable(msg.sender).transfer(address(this).balance);\\n\\n        // // send\\n        // bool sendSuccess = payable(msg.sender).send(address(this).balance);\\n        // require(sendSuccess, \\\"Send failed\\\");\\n\\n        //call\\n        (bool callSuccess, ) = payable(msg.sender).call{\\n            value: address(this).balance\\n        }(\\\"\\\");\\n        require(callSuccess, \\\"Call failed\\\");\\n        //revert();\\n    }\\n\\n    function cheaperWithdraw() public payable onlyOwner {\\n        address[] memory funders = s_funders;\\n        for (\\n            uint256 funderIndex = 0;\\n            funderIndex < funders.length;\\n            funderIndex++\\n        ) {\\n            address funder = funders[funderIndex];\\n            s_addressToAmountFunded[funder] = 0;\\n        }\\n        s_funders = new address[](0);\\n        (bool callSuccess, ) = i_owner.call{value: address(this).balance}(\\\"\\\");\\n        require(callSuccess, \\\"Call failed\\\");\\n    }\\n}\\n\"\n    },\n    \"contracts/PriceConverter.sol\": {\n      \"content\": \"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.7;\\n\\nimport \\\"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\\\";\\n\\nlibrary PriceConverter {\\n    function getPrice(AggregatorV3Interface priceFeed)\\n        internal\\n        view\\n        returns (uint256)\\n    {\\n        //ABI\\n        //Address 0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e\\n\\n        (, int256 price, , , ) = priceFeed.latestRoundData();\\n        return uint256(price * 1e10);\\n    }\\n\\n    function getConversionRate(\\n        uint256 ethAmount,\\n        AggregatorV3Interface priceFeed\\n    ) internal view returns (uint256) {\\n        uint256 ethPrice = getPrice(priceFeed);\\n        uint256 ethAmountInUsd = (ethPrice * ethAmount) / 1e18;\\n        return ethAmountInUsd;\\n    }\\n\\n    function getVersion(AggregatorV3Interface priceFeed)\\n        internal\\n        view\\n        returns (uint256)\\n    {\\n        return priceFeed.version();\\n    }\\n}\\n\"\n    },\n    \"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\": {\n      \"content\": \"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\ninterface AggregatorV3Interface {\\n  function decimals() external view returns (uint8);\\n\\n  function description() external view returns (string memory);\\n\\n  function version() external view returns (uint256);\\n\\n  function getRoundData(uint80 _roundId)\\n    external\\n    view\\n    returns (\\n      uint80 roundId,\\n      int256 answer,\\n      uint256 startedAt,\\n      uint256 updatedAt,\\n      uint80 answeredInRound\\n    );\\n\\n  function latestRoundData()\\n    external\\n    view\\n    returns (\\n      uint80 roundId,\\n      int256 answer,\\n      uint256 startedAt,\\n      uint256 updatedAt,\\n      uint80 answeredInRound\\n    );\\n}\\n\"\n    },\n    \"contracts/exampleContract/FunWithStorage.sol\": {\n      \"content\": \"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.7;\\n\\ncontract FunWithStorage {\\n    uint256 favoriteNumber; // Stored at slot 0\\n    bool someBool; // Stored at slot 1\\n    uint256[] myArray; /* Array Length Stored at slot 2,\\n    but the objects will be the keccak256(2), since 2 is the storage slot of the array */\\n    mapping(uint256 => bool) myMap; /* An empty slot is held at slot 3\\n    and the elements will be stored at keccak256(h(k) . p)\\n    p: The storage slot (aka, 3)\\n    k: The key in hex\\n    h: Some function based on the type. For uint256, it just pads the hex\\n    */\\n    uint256 constant NOT_IN_STORAGE = 123;\\n    uint256 immutable i_not_in_storage;\\n\\n    constructor() {\\n        favoriteNumber = 25; // See stored spot above // SSTORE\\n        someBool = true; // See stored spot above // SSTORE\\n        myArray.push(222); // SSTORE\\n        myMap[0] = true; // SSTORE\\n        i_not_in_storage = 123;\\n    }\\n\\n    // function doStuff() public {\\n    //     uint256 newVar = favoriteNumber + 1; // SLOAD\\n    //     bool otherVar = someBool; // SLOAD\\n    //     // ^^ memory variables\\n    // }\\n}\\n\"\n    }\n  },\n  \"settings\": {\n    \"optimizer\": {\n      \"enabled\": false,\n      \"runs\": 200\n    },\n    \"outputSelection\": {\n      \"*\": {\n        \"*\": [\n          \"abi\",\n          \"evm.bytecode\",\n          \"evm.deployedBytecode\",\n          \"evm.methodIdentifiers\",\n          \"metadata\",\n          \"devdoc\",\n          \"userdoc\",\n          \"storageLayout\",\n          \"evm.gasEstimates\"\n        ],\n        \"\": [\n          \"ast\"\n        ]\n      }\n    },\n    \"metadata\": {\n      \"useLiteralContent\": true\n    }\n  }\n}",
+      "solcInputHash": "1f3f587a098e0a133df53c8673ba3bf9",
+      "transactionHash": "0x04e16f9b08d0bcad625b0bc22c2e4680bbc7c93427e38d9c669f89ccda2aa1ba",
+      "args": []
+    },
+    "decoded": {
+      "from": "0xE2314597c13d22A8BF2919ff65758af81F4A4794",
+      "gasPrice": "228119320",
+      "gasLimit": "180013",
+      "to": null,
+      "value": "0",
+      "nonce": 20,
+      "data": "0x60a0604052348015600f57600080fd5b50601960008190555060018060006101000a81548160ff021916908315150217905550600260de908060018154018082558091505060019003906000526020600020016000909190919091505560016003600080815260200190815260200160002060006101000a81548160ff021916908315150217905550607b60808181525050608051603f60a660003960005050603f6000f3fe6080604052600080fdfea2646970667358221220e07d6b2522485a82731d613770134010972dbcbf7c76152e17b5b1f9ab55dceb64736f6c63430008080033",
+      "r": "0x21fa46c677664ea926fc9b68119bccef29919a142bdfc9cb3b78657a2a1ed8c7",
+      "s": "0x65285da44a0fc6391f8424309cfa82dd9376a7cb4c1a0471af823c8a00c9bc81",
+      "v": 45,
+      "chainId": 5
+    }
+  }
+}

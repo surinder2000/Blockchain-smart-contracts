@@ -1,0 +1,103 @@
+{
+    "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ],
+    "transactionHash": "0x439fbc904853b2dc91a99ca39763482994d4aadb6604f99aa0a1b7833a85a7ba",
+    "receipt": {
+        "to": null,
+        "from": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+        "contractAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+        "transactionIndex": 0,
+        "gasUsed": "180013",
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "blockHash": "0x7abbd1a8d89d80c60073e106fd7e97cf8300000fad98dc85bc6df41c5bc9dce1",
+        "transactionHash": "0x439fbc904853b2dc91a99ca39763482994d4aadb6604f99aa0a1b7833a85a7ba",
+        "logs": [],
+        "blockNumber": 3,
+        "cumulativeGasUsed": "180013",
+        "status": 1,
+        "byzantium": true
+    },
+    "args": [],
+    "numDeployments": 1,
+    "solcInputHash": "1f3f587a098e0a133df53c8673ba3bf9",
+    "metadata": "{\"compiler\":{\"version\":\"0.8.8+commit.dddeac2f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/exampleContract/FunWithStorage.sol\":\"FunWithStorage\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/exampleContract/FunWithStorage.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.7;\\n\\ncontract FunWithStorage {\\n    uint256 favoriteNumber; // Stored at slot 0\\n    bool someBool; // Stored at slot 1\\n    uint256[] myArray; /* Array Length Stored at slot 2,\\n    but the objects will be the keccak256(2), since 2 is the storage slot of the array */\\n    mapping(uint256 => bool) myMap; /* An empty slot is held at slot 3\\n    and the elements will be stored at keccak256(h(k) . p)\\n    p: The storage slot (aka, 3)\\n    k: The key in hex\\n    h: Some function based on the type. For uint256, it just pads the hex\\n    */\\n    uint256 constant NOT_IN_STORAGE = 123;\\n    uint256 immutable i_not_in_storage;\\n\\n    constructor() {\\n        favoriteNumber = 25; // See stored spot above // SSTORE\\n        someBool = true; // See stored spot above // SSTORE\\n        myArray.push(222); // SSTORE\\n        myMap[0] = true; // SSTORE\\n        i_not_in_storage = 123;\\n    }\\n\\n    // function doStuff() public {\\n    //     uint256 newVar = favoriteNumber + 1; // SLOAD\\n    //     bool otherVar = someBool; // SLOAD\\n    //     // ^^ memory variables\\n    // }\\n}\\n\",\"keccak256\":\"0x55aa87d761543645255f76d8cba488c0a5a6ac3536adcdf5f0da6ae25208e41d\",\"license\":\"MIT\"}},\"version\":1}",
+    "bytecode": "0x60a0604052348015600f57600080fd5b50601960008190555060018060006101000a81548160ff021916908315150217905550600260de908060018154018082558091505060019003906000526020600020016000909190919091505560016003600080815260200190815260200160002060006101000a81548160ff021916908315150217905550607b60808181525050608051603f60a660003960005050603f6000f3fe6080604052600080fdfea2646970667358221220e07d6b2522485a82731d613770134010972dbcbf7c76152e17b5b1f9ab55dceb64736f6c63430008080033",
+    "deployedBytecode": "0x6080604052600080fdfea2646970667358221220e07d6b2522485a82731d613770134010972dbcbf7c76152e17b5b1f9ab55dceb64736f6c63430008080033",
+    "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+    },
+    "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+    },
+    "storageLayout": {
+        "storage": [
+            {
+                "astId": 343,
+                "contract": "contracts/exampleContract/FunWithStorage.sol:FunWithStorage",
+                "label": "favoriteNumber",
+                "offset": 0,
+                "slot": "0",
+                "type": "t_uint256"
+            },
+            {
+                "astId": 345,
+                "contract": "contracts/exampleContract/FunWithStorage.sol:FunWithStorage",
+                "label": "someBool",
+                "offset": 0,
+                "slot": "1",
+                "type": "t_bool"
+            },
+            {
+                "astId": 348,
+                "contract": "contracts/exampleContract/FunWithStorage.sol:FunWithStorage",
+                "label": "myArray",
+                "offset": 0,
+                "slot": "2",
+                "type": "t_array(t_uint256)dyn_storage"
+            },
+            {
+                "astId": 352,
+                "contract": "contracts/exampleContract/FunWithStorage.sol:FunWithStorage",
+                "label": "myMap",
+                "offset": 0,
+                "slot": "3",
+                "type": "t_mapping(t_uint256,t_bool)"
+            }
+        ],
+        "types": {
+            "t_array(t_uint256)dyn_storage": {
+                "base": "t_uint256",
+                "encoding": "dynamic_array",
+                "label": "uint256[]",
+                "numberOfBytes": "32"
+            },
+            "t_bool": {
+                "encoding": "inplace",
+                "label": "bool",
+                "numberOfBytes": "1"
+            },
+            "t_mapping(t_uint256,t_bool)": {
+                "encoding": "mapping",
+                "key": "t_uint256",
+                "label": "mapping(uint256 => bool)",
+                "numberOfBytes": "32",
+                "value": "t_bool"
+            },
+            "t_uint256": {
+                "encoding": "inplace",
+                "label": "uint256",
+                "numberOfBytes": "32"
+            }
+        }
+    }
+}
